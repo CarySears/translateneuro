@@ -1,1 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Translate Neuro</title>
+  <meta name="description" content="We translate cutting-edge discoveries into practical solutions for cognitive wellness and memory care.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/logo.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="nav">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.png" alt="Translate Neuroscience Logo" width="48" height="48">
+          <span class="wordmark"><span class="lower">translate</span><br><span class="upper">Neuroscience</span></span>
+        </a>
+        <div class="nav-links">
+          <a href="#memory-clinic" data-en="Memory Clinic" data-zh="記憶診所">Memory Clinic</a>
+          <a href="#cms-guide">CMS GUIDE</a>
+          <a href="#blog" data-en="Brain Health Blog" data-zh="腦健康部落格">Brain Health Blog</a>
+          <a href="introduction.html" data-en="Meet Our Team" data-zh="團隊介紹">Meet Our Team</a>
+          <a href="#contact" data-en="Contact Us" data-zh="聯絡我們">Contact Us</a>
+          <button class="lang-btn" type="button" data-lang-toggle>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+            <span data-lang-label>中文</span>
+          </button>
+        </div>
+        <div class="menu-slot">
+          <button class="menu-toggle" type="button" data-menu-open aria-label="Open menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </button>
+          <div class="mobile-menu" data-mobile-menu>
+            <div class="menu-head">
+              <h3 data-en="Navigation Menu" data-zh="導航菜單">Navigation Menu</h3>
+              <button class="icon-btn" type="button" data-menu-close aria-label="Close menu">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+              </button>
+            </div>
+            <p class="menu-label" data-en="Main Pages" data-zh="主要頁面">Main Pages</p>
+            <a class="menu-link" href="#memory-clinic" data-menu-close>
+              <span class="menu-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a7 7 0 0 0-7 7c0 3 2 5 3 7 1 2 1 4 1 4h6s0-2 1-4c1-2 3-4 3-7a7 7 0 0 0-7-7z"></path></svg></span>
+              <span><strong data-en="Memory Clinic" data-zh="記憶診所">Memory Clinic</strong><span data-en="Professional memory assessment" data-zh="專業記憶評估">Professional memory assessment</span></span>
+            </a>
+            <a class="menu-link" href="#cms-guide" data-menu-close>
+              <span class="menu-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></span>
+              <span><strong data-en="CMS Guide" data-zh="CMS 指南">CMS Guide</strong><span data-en="Caregiver support program" data-zh="照護者支援計劃">Caregiver support program</span></span>
+            </a>
+            <a class="menu-link" href="#blog" data-menu-close>
+              <span class="menu-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg></span>
+              <span><strong data-en="Brain Health Blog" data-zh="腦健康博客">Brain Health Blog</strong><span data-en="Latest research & insights" data-zh="最新研究與見解">Latest research & insights</span></span>
+            </a>
+            <a class="menu-link" href="introduction.html" data-menu-close>
+              <span class="menu-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span>
+              <span><strong data-en="Meet Our Team" data-zh="團隊介紹">Meet Our Team</strong><span data-en="Professional medical team" data-zh="專業醫療團隊">Professional medical team</span></span>
+            </a>
+            <div class="menu-split">
+              <p class="menu-label" data-en="Language" data-zh="語言">Language</p>
+              <div style="padding: 0 0.75rem 0.5rem;">
+                <button class="lang-btn" type="button" data-lang-toggle>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+                  <span data-lang-label>中文</span>
+                </button>
+              </div>
+            </div>
+            <div class="menu-split">
+              <p class="menu-label" data-en="Contact" data-zh="聯繫方式">Contact</p>
+              <a class="menu-link" href="#contact" data-menu-close>
+                <span class="menu-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.81.3 1.6.52 2.36a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.76.22 1.55.39 2.36.52A2 2 0 0 1 22 16.92z"></path></svg></span>
+                <span><strong data-en="Contact Us" data-zh="聯繫我們">Contact Us</strong><span data-en="Appointments & inquiries" data-zh="預約與諮詢">Appointments & inquiries</span></span>
+              </a>
+              <div class="menu-actions">
+                <a href="tel:+16196308676"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.81.3 1.6.52 2.36a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.76.22 1.55.39 2.36.52A2 2 0 0 1 22 16.92z"></path></svg><span data-en="Call" data-zh="致電">Call</span></a>
+                <a href="mailto:info@translateneuro.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg><span data-en="Email" data-zh="郵件">Email</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
 
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="stack">
+          <h1 data-en="Brain Health and Improvement Through Science and AI" data-zh="應用科學和人工智慧來改善腦的健康">Brain Health and Improvement Through Science and AI</h1>
+          <p class="lede muted" data-en="We translate cutting-edge discoveries into practical solutions for cognitive wellness and memory care." data-zh="我們將最新發現轉化為認知健康和記憶護理的實用解決方案。">We translate cutting-edge discoveries into practical solutions for cognitive wellness and memory care.</p>
+          <div>
+            <a class="btn btn-primary" href="introduction.html">
+              <span data-en="Explore Our Research" data-zh="探索我們的研究">Explore Our Research</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </a>
+          </div>
+        </div>
+        <div class="brain" aria-hidden="true">
+          <svg viewBox="0 0 400 300">
+            <defs>
+              <pattern id="dots" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+                <circle cx="4" cy="4" r="1" fill="currentColor" opacity="0.6"></circle>
+              </pattern>
+            </defs>
+            <polygon points="200,50 350,150 200,250 50,150" fill="url(#dots)" stroke="currentColor" stroke-width="1" opacity="0.8"></polygon>
+          </svg>
+          <div class="orb"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="memory-clinic">
+      <div class="wrap">
+        <div class="center">
+          <h2 class="display" data-en="Memory Clinic" data-zh="記憶診所">Memory Clinic</h2>
+          <p class="sub" data-en="Comprehensive cognitive assessment and personalized care for memory concerns" data-zh="針對記憶問題的全面認知評估和個人化護理">Comprehensive cognitive assessment and personalized care for memory concerns</p>
+        </div>
+        <div class="cards three">
+          <article class="card">
+            <div class="card-body">
+              <div class="thumb"><img class="cover" src="assets/service-assessment.png" alt="Comprehensive Memory Assessment"></div>
+              <h3 data-en="Comprehensive Memory Assessment" data-zh="Comprehensive Memory Assessment">Comprehensive Memory Assessment</h3>
+              <p class="clamp-3" data-en="A thorough evaluation of cognitive functions, including memory, attention, language, and executive functions, to identify potential concerns and establish a baseline for brain health." data-zh="A thorough evaluation of cognitive functions, including memory, attention, language, and executive functions, to identify potential concerns and establish a baseline for brain health.">A thorough evaluation of cognitive functions, including memory, attention, language, and executive functions, to identify potential concerns and establish a baseline for brain health.</p>
+              <div class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg><span><span data-en="Duration" data-zh="持續時間">Duration</span>: <span data-en="2-3 hours" data-zh="2-3 hours">2-3 hours</span></span></div>
+              <button class="btn btn-block" type="button" data-en="Learn More" data-zh="瞭解更多">Learn More</button>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <div class="thumb"><img class="cover" src="assets/service-rehab.png" alt="Personalized Cognitive Rehabilitation"></div>
+              <h3>Personalized Cognitive Rehabilitation</h3>
+              <p class="clamp-3">Tailored programs designed to improve specific cognitive skills through targeted exercises, strategies, and compensatory techniques, guided by neuroscience principles.</p>
+              <div class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg><span><span data-en="Duration" data-zh="持續時間">Duration</span>: 12-week program (1-hour sessions, twice weekly)</span></div>
+              <button class="btn btn-block" type="button" data-en="Learn More" data-zh="瞭解更多">Learn More</button>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <div class="thumb"><img class="cover" src="assets/service-lifestyle.png" alt="Brain Health Lifestyle Coaching"></div>
+              <h3>Brain Health Lifestyle Coaching</h3>
+              <p class="clamp-3">One-on-one coaching to develop and implement sustainable lifestyle changes that support optimal brain health, covering nutrition, exercise, sleep, stress management, and social engagement.</p>
+              <div class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg><span><span data-en="Duration" data-zh="持續時間">Duration</span>: 6-month program (bi-weekly 45-minute sessions)</span></div>
+              <button class="btn btn-block" type="button" data-en="Learn More" data-zh="瞭解更多">Learn More</button>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <div class="thumb"><img class="cover" src="assets/service-imaging.png" alt="Advanced Neuroimaging Consultation"></div>
+              <h3>Advanced Neuroimaging Consultation</h3>
+              <p class="clamp-3">Expert interpretation and consultation on advanced neuroimaging results (e.g., fMRI, PET scans) to provide deeper insights into brain structure and function related to cognitive health.</p>
+              <div class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg><span><span data-en="Duration" data-zh="持續時間">Duration</span>: 1-hour consultation</span></div>
+              <button class="btn btn-block" type="button" data-en="Learn More" data-zh="瞭解更多">Learn More</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="cms-guide">
+      <div class="wrap split">
+        <div>
+          <h2 class="display" data-en="CMS GUIDE Caregiver Support" data-zh="CMS GUIDE 家屬照護者支援">CMS GUIDE Caregiver Support</h2>
+          <p class="lede muted" style="margin-top:1rem;max-width:none" data-en="Our Centers for Medicare &amp; Medicaid Services GUIDE program provides comprehensive dementia care coordination and support for patients and their families." data-zh="我們的醫療保險和醫療補助服務中心指導項目為患者及其家屬提供全面的失智症護理協調和支援。">Our Centers for Medicare &amp; Medicaid Services GUIDE program provides comprehensive dementia care coordination and support for patients and their families.</p>
+          <ul class="checks" style="margin-top:1.5rem">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg><span data-en="Personalized care planning and coordination" data-zh="個人化護理規劃和協調">Personalized care planning and coordination</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg><span data-en="24/7 caregiver support and resources" data-zh="24/7照護者支援和資源">24/7 caregiver support and resources</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg><span data-en="Evidence-based interventions and treatments" data-zh="循證干預和治療">Evidence-based interventions and treatments</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg><span data-en="Comprehensive family education and training" data-zh="全面的家庭教育和培訓">Comprehensive family education and training</span></li>
+          </ul>
+          <div style="margin-top:1.5rem">
+            <a class="btn btn-primary" href="https://info.ianacare.com/guide-tn" target="_blank" rel="noopener noreferrer" data-en="Join the Program" data-zh="加入項目">Join the Program</a>
+          </div>
+        </div>
+        <div class="feature-panel">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <h3 data-en="Comprehensive Care Coordination" data-zh="全面護理協調">Comprehensive Care Coordination</h3>
+          <p class="muted" data-en="Our interdisciplinary team works together to provide seamless, patient-centered care that addresses all aspects of dementia management." data-zh="我們的跨學科團隊共同合作，提供無縫的、以患者為中心的護理，解決失智症管理的各個方面。">Our interdisciplinary team works together to provide seamless, patient-centered care that addresses all aspects of dementia management.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="blog">
+      <div class="wrap">
+        <div class="center">
+          <h2 class="display" data-en="Brain Health Blog" data-zh="腦健康部落格">Brain Health Blog</h2>
+          <p class="sub" data-en="Stay informed with the latest research, insights, and practical tips for maintaining cognitive health" data-zh="瞭解最新研究、見解和維護認知健康的實用技巧">Stay informed with the latest research, insights, and practical tips for maintaining cognitive health</p>
+        </div>
+        <div class="cards three">
+          <article class="card soft">
+            <img class="cover" src="assets/blog-alzheimers.png" alt="Understanding Alzheimer's: Early Signs and Prevention">
+            <div class="card-body">
+              <h3 class="clamp-2">Understanding Alzheimer's: Early Signs and Prevention</h3>
+              <p class="clamp-3">Explore the early signs of Alzheimer's disease and discover effective prevention strategies to maintain cognitive health.</p>
+              <div class="meta between">
+                <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>Dr. Evelyn Reed</span>
+                <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg>9/15/2024</span>
+              </div>
+              <button class="btn btn-block" type="button" data-en="Read Article" data-zh="閱讀文章">Read Article</button>
+            </div>
+          </article>
+          <article class="card soft">
+            <img class="cover" src="assets/blog-nutrition.png" alt="The Role of Nutrition in Cognitive Function">
+            <div class="card-body">
+              <h3 class="clamp-2">The Role of Nutrition in Cognitive Function</h3>
+              <p class="clamp-3">Discover how a balanced diet rich in specific nutrients can boost your cognitive function and protect your brain.</p>
+              <div class="meta between">
+                <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>Sarah Chen, RD</span>
+                <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg>9/10/2024</span>
+              </div>
+              <button class="btn btn-block" type="button" data-en="Read Article" data-zh="閱讀文章">Read Article</button>
+            </div>
+          </article>
+          <article class="card soft">
+            <img class="cover" src="assets/blog-assessment.png" alt="Memory Clinic: What to Expect from a Comprehensive Assessment">
+            <div class="card-body">
+              <h3 class="clamp-2">Memory Clinic: What to Expect from a Comprehensive Assessment</h3>
+              <p class="clamp-3">Learn about the comprehensive assessment process at a memory clinic and what it entails for patients and families.</p>
+              <div class="meta between">
+                <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>Dr. David Lee</span>
+                <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg>9/1/2024</span>
+              </div>
+              <button class="btn btn-block" type="button" data-en="Read Article" data-zh="閱讀文章">Read Article</button>
+            </div>
+          </article>
+        </div>
+        <div class="more">
+          <button class="btn btn-primary" type="button">
+            <span data-en="View All Articles" data-zh="查看所有文章">View All Articles</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="wrap">
+        <div class="center">
+          <h2 class="display" data-en="Contact Us" data-zh="聯絡我們">Contact Us</h2>
+          <p class="sub" data-en="Get in touch to learn more about our services and research" data-zh="聯繫我們了解更多關於我們的服務和研究">Get in touch to learn more about our services and research</p>
+        </div>
+        <div class="cards two contact-grid">
+          <article class="card contact-card">
+            <div class="bubble"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.81.3 1.6.52 2.36a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.76.22 1.55.39 2.36.52A2 2 0 0 1 22 16.92z"></path></svg></div>
+            <h3 data-en="Call Us" data-zh="電話聯繫">Call Us</h3>
+            <a href="tel:+16196308676">(619) 630-8676</a>
+            <p class="faint" data-en="Monday - Friday 9:00 AM - 5:00 PM" data-zh="週一至週五 9:00 AM - 5:00 PM">Monday - Friday 9:00 AM - 5:00 PM</p>
+          </article>
+          <article class="card contact-card">
+            <div class="bubble"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></div>
+            <h3 data-en="Email Us" data-zh="電子郵件">Email Us</h3>
+            <a href="mailto:info@translateneuro.com">info@translateneuro.com</a>
+            <p class="faint" data-en="We respond within 24 hours" data-zh="我們會在24小時內回覆">We respond within 24 hours</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <img src="assets/logo.png" alt="Translate Neuroscience Logo" width="32" height="32">
+            <span class="wordmark"><span class="lower">translate</span><br><span class="upper">Neuroscience</span></span>
+          </div>
+          <p class="muted" style="font-size:.875rem" data-en="From the latest discoveries to practice" data-zh="從最新發現到應用">From the latest discoveries to practice</p>
+        </div>
+        <div>
+          <h4 data-en="Services" data-zh="服務">Services</h4>
+          <ul>
+            <li><a href="#memory-clinic" data-en="Memory Clinic" data-zh="記憶診所">Memory Clinic</a></li>
+            <li><a href="#cms-guide">CMS GUIDE</a></li>
+            <li><a href="#" data-en="Cognitive Assessment" data-zh="認知評估">Cognitive Assessment</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-en="Resources" data-zh="資源">Resources</h4>
+          <ul>
+            <li><a href="#blog" data-en="Brain Health Blog" data-zh="腦健康部落格">Brain Health Blog</a></li>
+            <li><a href="#" data-en="Research Publications" data-zh="研究出版物">Research Publications</a></li>
+            <li><a href="#" data-en="Patient Resources" data-zh="患者資源">Patient Resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-en="Contact" data-zh="聯絡方式">Contact</h4>
+          <ul>
+            <li><span data-en="Phone" data-zh="電話">Phone</span>: (619) 630-8676</li>
+            <li><span data-en="Email" data-zh="電子郵件">Email</span>: info@translateneuro.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="legal-row">
+        <span data-en="© 2024 Translate Neuroscience. All rights reserved." data-zh="© 2024 詮譯腦科。版權所有。">© 2024 Translate Neuroscience. All rights reserved.</span><br>
+        <a class="legal" href="legal-disclaimer.html" data-en="Legal Disclaimer" data-zh="法律免責聲明">Legal Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
